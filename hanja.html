@@ -4,11 +4,26 @@
 <head>
   <meta charset="utf-8">
   <title>급수 한자</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #top-area {
+      display: flex;
+      flex-flow: column wrap;
+      /* width: 360px;
+      height: 640px; */
+    }
+
+    @media(max-width: 2000px) {
+      #top-area {
+        padding-right: 0px;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <!--  전체 -->
-  <div style="width:360px; height:640px;">
+  <div id="top-area">
     <img src="hanja.jpg" style="height:635px;">
   </div>
 </body>
